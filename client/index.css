@@ -1,0 +1,21 @@
+.delete-button {
+  cursor: pointer;
+}
+
+#to-do-list {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+ul {
+  padding: 0;
+}
